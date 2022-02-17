@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">androidtemplate</string>
+    <string name="onboarding_1_title">Android template</string>
+    <string name="onboarding_1_text">Some information about the app</string>
+    <string name="onboarding_2_title">Android template 2</string>
+    <string name="onboarding_2_text">Some more information about the app</string>
+    <string name="onboarding_3_title">Android template 3</string>
+    <string name="onboarding_3_text">And even more information about the app</string>
+    <string name="onboarding_button">Next</string>
+    <string name="onboarding_button_last">Some action to finish</string>
+    <!--103_Versionlock Android and iOS-->
+    <string name="versionlock_title">Please update your app!</string>
+    <string name="versionlock_button">Update</string>
+    <string name="versionlock_text">Sorry! This app version is a little too outdated, we have been working hard to improve features and bug fixes and we want to ensure you have the smoothest experience possible. Please go to the play store and update the app!</string>
+    <string name="contentdesc_logo">logo</string>
+    <string name="a_navigate">Go to fragment b</string>
+    <string name="b_navigate">This fragment has back navigation in the toolbar, through the main viewmodel</string>
+    <string name="c_navigate">Fragment C</string>
+    <string name="toolbar_option_1">Option 1</string>
+    <string name="toolbar_option_2">Option 2</string>
+</resources>

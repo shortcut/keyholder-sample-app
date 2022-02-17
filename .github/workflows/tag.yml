@@ -1,0 +1,39 @@
+#Uncomment the steps below to enable automatic uploading to google play when pushing tags
+#Requires adding a GOOGLE_PLAY_SERVICES_KEY secret to github (See README.md)
+
+name: Build, test and deploy
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+       - name: Please enable automatic deploy
+         run: |
+           echo "please enable automatic deployment. See readme of android-template."
+
+#      - name: Checkout the code
+#        uses: actions/checkout@v2
+#        with:
+#          fetch-depth: 0
+#
+#      - name: Setup Ruby
+#        uses: ruby/setup-ruby@v1
+#        with:
+#          ruby-version: 2.7.2
+#
+#      - name: Setup google play service account key
+#        env:
+#          GOOGLE_PLAY_SERVICE_KEY: ${{ secrets.GOOGLE_PLAY_SERVICE_KEY }}
+#        run: |
+#          echo ${GOOGLE_PLAY_SERVICE_KEY} >google_play_service_account.json
+#
+#      - name: Build, test and deploy
+#        uses: maierj/fastlane-action@v2.0.1
+#        with:
+#          lane: "build_test_deploy"
